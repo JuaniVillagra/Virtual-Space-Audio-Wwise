@@ -85,7 +85,7 @@ elementos sonoros.
 
 ## 📚 Documentación
 
-- 📄 [Documentación del proyecto](Informe_Space-Audio-WWhise.pdf)
+- 📄 [Documentación del proyecto](Informe_Virtual_Space_Audio_WWhise.pdf)
 
 ## ▶️ Requisitos
 
