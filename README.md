@@ -5,60 +5,90 @@
 
 ## 🎧 Sobre el proyecto
 
-Proyecto centrado en la implementación de audio interactivo dentro de
-un espacio virtual, utilizando Wwise como herramienta principal de
-diseño y gestión de audio e integrándolo con Unity.
+Proyecto centrado en el diseño e implementación de audio interactivo
+dentro de un espacio virtual, utilizando Wwise como herramienta
+principal de diseño y gestión de audio e integrándolo con Unity.
 
 El objetivo fue crear una experiencia sonora dinámica y espacializada,
-vinculando diferentes elementos del entorno con sistemas de audio.
+vinculando diferentes elementos del entorno con sistemas de audio
+interactivo.
 
 ## 🛠️ Tecnologías
 
 - Unity
 - Wwise
 - C#
-- Audio 3D
+- Reaper
 - Git / GitHub
 
 ## 👨‍💻 Trabajo realizado
 
-- Implementación y configuración de eventos de audio en Wwise.
-- Integración de Wwise con Unity para controlar el comportamiento del audio.
-- Configuración de switches y contenedores para gestionar diferentes
-  comportamientos sonoros.
-- Implementación de espacialización y audio 3D dentro del entorno virtual.
+- Integración de Wwise con Unity para implementar y controlar el audio
+  interactivo dentro del entorno virtual.
+- Implementación de eventos de audio asociados a diferentes
+  interacciones del jugador.
+- Diseño y organización de contenido sonoro mediante diferentes tipos
+  de Containers.
+- Implementación de audio espacializado y posicionamiento 3D de
+  diferentes fuentes sonoras.
+- Diseño de efectos de sonido mediante múltiples capas y grabaciones
+  Foley.
+- Implementación de sistemas de música interactiva mediante
+  remezcla vertical.
 
 ## 🔊 Implementación de Audio
 
 ### Events
-Descripción breve de los eventos implementados.
 
-### Switches
-Descripción breve de cómo se utilizaron los switches.
+Implementación de eventos de audio en Wwise para controlar la
+reproducción de sonidos a partir de diferentes interacciones dentro
+del entorno virtual.
+
+Se utilizaron eventos asociados a acciones del jugador, incluyendo
+interacciones mediante Click Mouse y Trigger/Collider.
 
 ### Containers
-Descripción de los containers utilizados para organizar y controlar
-el contenido sonoro.
+
+Se utilizaron diferentes tipos de Containers para organizar y
+controlar el contenido sonoro:
+
+- **Blend Container:** utilizado para combinar diferentes capas de
+  sonido ambiental y generar un ambiente dinámico.
+- **Random Container:** utilizado para reproducir diferentes
+  variaciones de efectos de sonido, evitando una repetición constante
+  de la misma muestra.
+- **Music Playlist Container:** utilizado para organizar las
+  composiciones musicales y controlar su reproducción.
 
 ### Audio 3D
-Implementación de espacialización para posicionar los sonidos dentro
-del espacio virtual.
 
-## 📸 Capturas
+Implementación de espacialización y posicionamiento 3D de diferentes
+fuentes sonoras dentro del entorno virtual.
 
-<!-- Agregar capturas de Unity y Wwise -->
+Los sonidos fueron ubicados en objetos del escenario para generar una
+percepción de dirección y distancia, modificando su comportamiento
+según la posición del jugador.
 
-## 🎥 Demo
+### 🎵 Música interactiva
 
-<!-- Agregar video si tenés -->
+Implementación de un sistema de **remezcla vertical** para adaptar la
+música según el recorrido y las decisiones del jugador.
+
+El sistema utiliza diferentes capas musicales que se combinan
+dinámicamente para modificar la composición durante la experiencia.
+
+### 🎙️ Diseño de SFX
+
+Diseño de efectos de sonido mediante múltiples capas y grabaciones
+Foley, trabajando posteriormente el procesamiento y la mezcla de los
+elementos sonoros.
 
 ## 📚 Documentación
 
-- 📄 Documentación del proyecto
-- 📄 Diseño / implementación de audio
-- 📄 Presentación
+- 📄 [Documentación del proyecto](./Documentacion/Documentacion.pdf)
 
 ## ▶️ Requisitos
 
-- Unity [versión utilizada]
-- Wwise [versión utilizada]
+- Unity
+- Wwise
+- Proyecto compatible con la versión utilizada durante el desarrollo.
