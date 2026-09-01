@@ -89,6 +89,5 @@ elementos sonoros.
 
 ## ▶️ Requisitos
 
-- Unity
-- Wwise
-- Proyecto compatible con la versión utilizada durante el desarrollo.
+- Unity: version 2023.2.22f1  
+- Wwise: versión 2023.1.16
